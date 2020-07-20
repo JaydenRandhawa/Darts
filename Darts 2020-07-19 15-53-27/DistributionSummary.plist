@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Darts.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>96D8A322A8137FE1B2E41258E4DFE475887F2635</string>
+				<key>dateExpires</key>
+				<string>2020-09-08</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>V6KJC9YDUM.Jayden.Darts</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>V6KJC9YDUM</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>V6KJC9YDUM.Jayden.Darts</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Darts.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>2bd8a533-ad95-41aa-a896-c82e4e5d8076</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: *</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>V6KJC9YDUM</string>
+				<key>name</key>
+				<string>Guninder Randhawa</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

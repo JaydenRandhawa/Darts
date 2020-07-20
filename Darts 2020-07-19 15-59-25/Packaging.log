@@ -1,0 +1,154 @@
+2020-07-19 19:59:21 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fe6284bf130; archive(resolved)='<IDEArchive: 0x7fe656ebcb40>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fe6284bf130; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fe628420380; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe633433510; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe625c84880; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe6466bd350; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe65cf9fc70; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe625a52560; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe625aefe00; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe6266c2e40; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe66e295e50; teamID='V6KJC9YDUM', teamName='Guninder Randhawa', teamType='Individual', username='jaydenr917@icloud.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe637371df0; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='(null)'>
+	<IDEDistributionContext: 0x7fe626062a20; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe669d8f190>', team='(null)'>
+	<IDEDistributionContext: 0x7fe666e74c60; archive = '<IDEArchive: 0x7fe656ebcb40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fe6284bf130>
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCopyItemStep
+2020-07-19 19:59:21 +0000  Running /usr/bin/ditto '-V' '/Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/Products/Applications/Darts.app' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app'
+2020-07-19 19:59:21 +0000  >>> Copying /Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/Products/Applications/Darts.app 
+2020-07-19 19:59:21 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-07-19 19:59:21 +0000  4563 bytes for ./_CodeSignature/CodeResources
+2020-07-19 19:59:21 +0000  copying file ./AppIcon60x60@2x.png ... 
+2020-07-19 19:59:21 +0000  3020 bytes for ./AppIcon60x60@2x.png
+2020-07-19 19:59:21 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-07-19 19:59:21 +0000  8115 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2020-07-19 19:59:21 +0000  copying file ./Base.lproj/Main.storyboardc/UITabBarController-8GE-do-rWl.nib ... 
+2020-07-19 19:59:21 +0000  3216 bytes for ./Base.lproj/Main.storyboardc/UITabBarController-8GE-do-rWl.nib
+2020-07-19 19:59:21 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-07-19 19:59:21 +0000  264 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-07-19 19:59:21 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-07-19 19:59:21 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-07-19 19:59:21 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2020-07-19 19:59:21 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-07-19 19:59:21 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-07-19 19:59:21 +0000  copying file ./Assets.car ... 
+2020-07-19 19:59:21 +0000  902879 bytes for ./Assets.car
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2020-07-19 19:59:21 +0000  3945 bytes for ./AppIcon76x76@2x~ipad.png
+2020-07-19 19:59:21 +0000  copying file ./Darts ... 
+2020-07-19 19:59:21 +0000  307872 bytes for ./Darts
+copying file ./embedded.mobileprovision ... 
+2020-07-19 19:59:21 +0000  11379 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2020-07-19 19:59:21 +0000  1586 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2020-07-19 19:59:21 +0000  8 bytes for ./PkgInfo
+2020-07-19 19:59:21 +0000  /usr/bin/ditto exited with 0
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionItemRemovalStep
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-07-19 19:59:21 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app/Darts' '-l' '-o' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app/Darts'
+2020-07-19 19:59:21 +0000  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-07-19 19:59:21 +0000  Running /usr/bin/ditto '-V' '/Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/BCSymbolMaps/6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/BCSymbolMaps/6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap'
+2020-07-19 19:59:21 +0000  >>> Copying /Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/BCSymbolMaps/6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap 
+2020-07-19 19:59:21 +0000  copying file ./6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap ... 
+2020-07-19 19:59:21 +0000  31460 bytes for ./6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap
+2020-07-19 19:59:21 +0000  /usr/bin/ditto exited with 0
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionSymbolsStep
+2020-07-19 19:59:21 +0000  Excluding symbols for Darts.app
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionAppThinningStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionArchThinningStep
+2020-07-19 19:59:21 +0000  Running /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app/Darts' '-verify_arch' 'arm64e'
+2020-07-19 19:59:21 +0000  /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-07-19 19:59:21 +0000  Skipping architecture thinning for item "Darts" because arch "arm64e" wasn't found
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionODRStep
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-07-19 19:59:21 +0000  Running /usr/bin/xattr '-crs' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app'
+2020-07-19 19:59:21 +0000  /usr/bin/xattr exited with 0
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCodesignStep
+2020-07-19 19:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fe625e82460; bundleID='Jayden.Darts', path='<DVTFilePath:0x7fe656ea3cf0:'/Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/Products/Applications/Darts.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fe657e4a870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fe625a33ce0; name='Apple Development: Guninder Randhawa (Y972P833Z9)', hash='6166DCC347912A4EBC1211471118E04D0C3E250B', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fe6260c39d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-09 22:21:08 +0000''>', entitlements='{
+    "application-identifier" = "V6KJC9YDUM.Jayden.Darts";
+    "com.apple.developer.team-identifier" = V6KJC9YDUM;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "V6KJC9YDUM.Jayden.Darts"
+    );
+}', teamID='V6KJC9YDUM', identifier='Jayden.Darts', executablePath='<DVTFilePath:0x7fe627260220:'/Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/Products/Applications/Darts.app/Darts'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "V6KJC9YDUM.Jayden.Darts";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = V6KJC9YDUM;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "V6KJC9YDUM.Jayden.Darts"
+    );
+}
+2020-07-19 19:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe625e82460; bundleID='Jayden.Darts', path='<DVTFilePath:0x7fe656ea3cf0:'/Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/Products/Applications/Darts.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fe657e4a870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fe657c8e130; name='Apple Development: Guninder Randhawa (Y972P833Z9)', hash='6166DCC347912A4EBC1211471118E04D0C3E250B', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fe65c22f880>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-09 22:21:08 +0000''>', entitlements='{
+    "application-identifier" = "V6KJC9YDUM.Jayden.Darts";
+    "com.apple.developer.team-identifier" = V6KJC9YDUM;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "V6KJC9YDUM.Jayden.Darts"
+    );
+}', teamID='V6KJC9YDUM', identifier='Jayden.Darts', executablePath='<DVTFilePath:0x7fe627260220:'/Users/jaydenrandhawa/Library/Developer/Xcode/Archives/2020-07-19/Darts 2020-07-19, 3.58 PM.xcarchive/Products/Applications/Darts.app/Darts'>', hardenedRuntime='0'>'> to: /var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/entitlements~~~xnUqpv
+2020-07-19 19:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '96D8A322A8137FE1B2E41258E4DFE475887F2635' '--entitlements' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/entitlements~~~xnUqpv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app'
+2020-07-19 19:59:21 +0000  /var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app: signed app bundle with Mach-O thin (arm64) [Jayden.Darts]
+2020-07-19 19:59:21 +0000  /usr/bin/codesign exited with 0
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-07-19 19:59:21 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root' '/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Packages/Darts.ipa'
+2020-07-19 19:59:21 +0000  >>> Copying /var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root 
+2020-07-19 19:59:21 +0000  copying file ./BCSymbolMaps/6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap ... 
+2020-07-19 19:59:21 +0000  31460 bytes for ./BCSymbolMaps/6B2D7172-6F82-3A9D-A7C7-D38DD3500FEF.bcsymbolmap
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/_CodeSignature/CodeResources ... 
+2020-07-19 19:59:21 +0000  4563 bytes for ./Payload/Darts.app/_CodeSignature/CodeResources
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/AppIcon60x60@2x.png ... 
+2020-07-19 19:59:21 +0000  3020 bytes for ./Payload/Darts.app/AppIcon60x60@2x.png
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-07-19 19:59:21 +0000  8115 bytes for ./Payload/Darts.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/Base.lproj/Main.storyboardc/UITabBarController-8GE-do-rWl.nib ... 
+2020-07-19 19:59:21 +0000  3216 bytes for ./Payload/Darts.app/Base.lproj/Main.storyboardc/UITabBarController-8GE-do-rWl.nib
+copying file ./Payload/Darts.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-07-19 19:59:21 +0000  264 bytes for ./Payload/Darts.app/Base.lproj/Main.storyboardc/Info.plist
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-07-19 19:59:21 +0000  1197 bytes for ./Payload/Darts.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-07-19 19:59:21 +0000  896 bytes for ./Payload/Darts.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Darts.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-07-19 19:59:21 +0000  258 bytes for ./Payload/Darts.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/Assets.car ... 
+2020-07-19 19:59:21 +0000  902879 bytes for ./Payload/Darts.app/Assets.car
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/AppIcon76x76@2x~ipad.png ... 
+3945 bytes for ./Payload/Darts.app/AppIcon76x76@2x~ipad.png
+2020-07-19 19:59:21 +0000  copying file ./Payload/Darts.app/Darts ... 
+2020-07-19 19:59:21 +0000  243056 bytes for ./Payload/Darts.app/Darts
+copying file ./Payload/Darts.app/embedded.mobileprovision ... 
+2020-07-19 19:59:21 +0000  11214 bytes for ./Payload/Darts.app/embedded.mobileprovision
+copying file ./Payload/Darts.app/Info.plist ... 
+2020-07-19 19:59:21 +0000  1586 bytes for ./Payload/Darts.app/Info.plist
+copying file ./Payload/Darts.app/PkgInfo ... 
+2020-07-19 19:59:21 +0000  8 bytes for ./Payload/Darts.app/PkgInfo
+2020-07-19 19:59:21 +0000  /usr/bin/ditto exited with 0
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-07-19 19:59:21 +0000  IDEDistributionItem init <DVTFilePath:0x7fe636747eb0:'/var/folders/js/n78_l5zx25xdvg3l2335p7k40000gn/T/XcodeDistPipeline.~~~PZm67k/Root/Payload/Darts.app'>
+2020-07-19 19:59:21 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-07-19 19:59:21 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
