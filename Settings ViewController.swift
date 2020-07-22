@@ -11,12 +11,14 @@ import UIKit
 var y = 0
 var mTurnLabNum = 0
 
+var switchIsOn = false
+
 class Settings_ViewController: UIViewController {
 
     @IBOutlet weak var pointsController: UISegmentedControl!
     @IBOutlet weak var startingPoints: UISegmentedControl!
-    @IBOutlet weak var maxTurnSwitch: UISwitch!
-    @IBOutlet weak var maxTurnNumber: UITextField!
+    @IBOutlet weak var maxTurnsStepper: UIStepper!
+    @IBOutlet weak var stepperCountLabel: UILabel!
     
 
     
@@ -28,8 +30,6 @@ class Settings_ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        maxTurnNumber.keyboardType = UIKeyboardType.numberPad
     }
     
 
@@ -43,52 +43,27 @@ class Settings_ViewController: UIViewController {
     }
     */
     
-        @IBAction func valueChanged(_ sender: Any) {
-                    switch startingPoints.selectedSegmentIndex{
+    @IBAction func valueChanged(_ sender: Any) {
+        switch startingPoints.selectedSegmentIndex{
                     
-                    case 0:
-                        initScore = 301
-    //                    score.text = String(initScore)
+            case 0:
+                initScore = 301
+//              score.text = String(initScore)
                     
-                    case 1:
-                        initScore = 501
-            //            score.text = String(initScore)
+            case 1:
+                initScore = 501
+//              score.text = String(initScore)
                         
-                    default:
-                        break
+            default:
+                break
                     }
         }
-    @IBAction func switchChanged(_ sender: Any) {
-        if maxTurnSwitch.isOn == true{
-            while maxTurnNumber.text == "" && y < 10{
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    print("waiting for maximum turn number", y)
-                    
-                    y+=1
-                }
-            }
-            if maxTurnNumber.text == ""{
-                maxTurnNumber.text = String(maxTurns)
-            }
-            mTurnLabNum = Int(maxTurnNumber.text!)!
-                
-            if maxTurnNumber.text != ""{
-                maxTurns = mTurnLabNum
-            }
-        
-        
-        if maxTurnSwitch.isOn == false{
-            
-            maxTurns = 100
-        }
-        
+    
+    @IBAction func stepperChanged(_ sender: UIStepper) {
+        let stepperInt = Int(sender.value)
+//        if switchIsOn == true{
+            stepperCountLabel.text = String(stepperInt)
+//        }
     }
-    //    @IBAction func applyChanges(_ sender: Any) {
-//        let scoreboardVC = UIStoryboard(name: "Scoreboard", bundle: nil).instantiateViewController(withIdentifier: "scoreboard") as! ViewController
-//
-//        scoreboardVC.passedData = initScore
-//        self.present(scoreboardVC, animated: true, completion: nil)
-//    }
-}
+    
 }

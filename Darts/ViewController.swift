@@ -30,8 +30,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
         self.navigationController?.isNavigationBarHidden = true
         
-        
-        
         turnScore.keyboardType = UIKeyboardType.numberPad
         
     }
@@ -75,6 +73,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func zeroButton(_ sender: Any) {
         num += 1
         turnNumber.text = String(num)
+        if num == maxTurns{
+            alert(Title: "Game Over", Message: "You lost because all turns have been played")
+        }
         score.text = String(scoreNum)
         turnScores.append("0")
         print(turnScores)
