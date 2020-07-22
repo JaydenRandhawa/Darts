@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E63C4B0D24C751390026F285 /* Settings ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63C4B0C24C751390026F285 /* Settings ViewController.swift */; };
 		E6D2F6522321A67A00134C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2F6512321A67A00134C76 /* AppDelegate.swift */; };
 		E6D2F6542321A67A00134C76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2F6532321A67A00134C76 /* SceneDelegate.swift */; };
 		E6D2F6562321A67A00134C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2F6552321A67A00134C76 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E63C4B0C24C751390026F285 /* Settings ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Settings ViewController.swift"; path = "../Settings ViewController.swift"; sourceTree = "<group>"; };
 		E6D2F64E2321A67A00134C76 /* Darts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D2F6512321A67A00134C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D2F6532321A67A00134C76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				E6D2F6512321A67A00134C76 /* AppDelegate.swift */,
 				E6D2F6532321A67A00134C76 /* SceneDelegate.swift */,
 				E6D2F6552321A67A00134C76 /* ViewController.swift */,
+				E63C4B0C24C751390026F285 /* Settings ViewController.swift */,
 				E6D2F6572321A67A00134C76 /* Main.storyboard */,
 				E6D2F65A2321A68300134C76 /* Assets.xcassets */,
 				E6D2F65C2321A68300134C76 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63C4B0D24C751390026F285 /* Settings ViewController.swift in Sources */,
 				E6D2F6562321A67A00134C76 /* ViewController.swift in Sources */,
 				E6D2F6522321A67A00134C76 /* AppDelegate.swift in Sources */,
 				E6D2F6542321A67A00134C76 /* SceneDelegate.swift in Sources */,
@@ -289,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6KJC9YDUM;
 				INFOPLIST_FILE = Darts/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6KJC9YDUM;
 				INFOPLIST_FILE = Darts/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
