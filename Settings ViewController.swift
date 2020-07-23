@@ -63,6 +63,7 @@ class Settings_ViewController: UIViewController {
         let stepperInt = Int(sender.value)
 //        if switchIsOn == true{
             stepperCountLabel.text = String(stepperInt)
+            maxTurns = stepperInt
 //        }
     }
     
