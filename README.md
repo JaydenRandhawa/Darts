@@ -1,6 +1,6 @@
 # Darts
 
-Main UI code in ViewCOntroller.swift and settingsViewController.swift
+Main UI code in ViewController.swift and settings ViewController.swift
 
 #Testing#
 
